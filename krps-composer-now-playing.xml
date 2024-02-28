@@ -1,0 +1,47 @@
+<panels>
+	<item>
+		<link>
+			<![CDATA[
+			
+				<!doctype html>
+					<head>
+					  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+					  <script src="https://composer.nprstations.org/widgets/src/whatson.js"></script>
+					  <script src="https://composer.nprstations.org/widgets/src/jquery-deparam.js"></script>
+
+						<style>
+							#nprds_widget .whatson-wrap {
+								text-align: center !important;
+							}
+						</style>
+
+					  <script>
+						var configuration = {
+						  schedule: 'now',
+						  v: '5.12.6',
+						  station: '633d9458a697dc0b9881fe89'
+						};
+
+						$(function(){
+						  $('.now-playing').whatsOn( configuration );
+						});
+					   </script>
+
+					</head>
+
+					<body>
+					  
+					  <div class="now-playing"></div>
+
+
+</body>
+</html>
+			
+			
+			]]>
+		</link>
+		<image/>
+		<subtitle/>
+		<redirect>n</redirect>
+	</item>
+</panels>
